@@ -1,0 +1,92 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container .card-container {
+  margin: 250px 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 500px;
+}
+
+.container .card-container .yellow-card {
+  background: #e38826;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.container .card-container .yellow-card .btn h3 {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: #f2f2f2;
+  font-size: 14px;
+  color: #e38826;
+}
+
+.container .card-container .green-card {
+  background: #006970;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.container .card-container .green-card .btn h3 {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: #f2f2f2;
+  font-size: 14px;
+  color: #006970;
+}
+
+.container .card-container .blue-card {
+  background: #004241;
+}
+
+.container .card-container .blue-card .btn h3 {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: #f2f2f2;
+  font-size: 14px;
+  color: #004241;
+}
+
+.container .card-container .card {
+  width: 33.33%;
+  padding: 40px;
+}
+
+.container .card-container .card h2 {
+  font-family: Big Shoulders Display;
+  color: #f2f2f2;
+  font-weight: 700;
+  font-size: 33px;
+  margin: 20px 0;
+}
+
+.container .card-container .card p {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: #f2f2f2;
+  font-size: 14px;
+  margin: 45px 0;
+  line-height: 25px;
+}
+
+.container .card-container .card .btn {
+  background: #f2f2f2;
+  padding: 12px 25px;
+  border-radius: 30px;
+  width: 145px;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=styles.css.map */

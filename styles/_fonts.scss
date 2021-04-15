@@ -1,0 +1,16 @@
+ @mixin headings {
+
+    font-family: Big Shoulders Display;
+     color: hsl(0, 0%, 95%);
+     font-weight: 700;
+     font-size: 33px;
+
+   
+ }
+
+ @mixin body {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%);
+    font-size: 14px;
+ }
